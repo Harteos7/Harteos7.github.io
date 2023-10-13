@@ -1,0 +1,34 @@
+/* Styles pour la navigation latérale */
+nav {
+    background-color: #333; /* Couleur de fond de la barre latérale */
+    width: 200px; /* Largeur de la barre latérale */
+    position: fixed; /* La barre latérale reste fixe à gauche de la page */
+    height: 100%; /* Remplit toute la hauteur de la fenêtre */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte des liens */
+    display: block; /* Les liens prennent toute la largeur de la barre latérale */
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555; /* Couleur de fond des liens au survol */
+}
+
+/* Réduire la marge gauche du contenu principal pour s'adapter à la barre latérale */
+section {
+    margin-left: 220px;
+}
