@@ -8,3 +8,5 @@ while (i < 3) {
     titre.textContent += " sur le portfolio de Yoann Harmand";
   }, i * 1000);
 }
+
+console.log(titre);
