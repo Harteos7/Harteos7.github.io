@@ -44195,7 +44195,7 @@ if(B.d.dc(a,"/"))a=B.d.zx(a,"/","")
 if(c!=null)a="packages/"+c+"/"+a
 s=window.location.href
 s.toString
-return A.vz("/#/")+"/assets/"+a}}
+return A.vz(s,"/#/")+"/assets/"+a}}
 A.Gz.prototype={
 jg(a){var s,r=this.a
 if(r.ah(0,a)){r=r.h(0,a)
