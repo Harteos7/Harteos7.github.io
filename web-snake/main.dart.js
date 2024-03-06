@@ -813,7 +813,7 @@ var $async$X4=A.P(function(b,c){if(b===1)return A.L(c,r)
 while(true)switch(s){case 0:n={}
 l=t.Lk
 s=3
-return A.R(A.vw(a.us("web-snake/FontManifest.json")),$async$X4)
+return A.R(A.vw(a.us("web-snake/assets/FontManifest.json")),$async$X4)
 case 3:m=l.a(c)
 if(!m.gG9()){$.dy().$1("Font manifest does not exist at `"+m.a+"` - ignoring.")
 q=new A.xx(A.b([],t.z8))
