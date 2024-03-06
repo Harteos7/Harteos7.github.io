@@ -43225,7 +43225,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)A.k(self.window.console,"warn",["The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization"])
 q=this.b=s?"":r
-s=q}return A.VB(B.iP,s+"assets/"+a,B.ad,!1)}}
+s=q}return A.VB(B.iP,s+"web-snake/assets/"+a,B.ad,!1)}}
 A.alM.prototype={
 $1(a){return this.VJ(a)},
 $0(){return this.$1(null)},
@@ -44195,7 +44195,7 @@ if(B.d.dc(a,"/"))a=B.d.zx(a,"/","")
 if(c!=null)a="packages/"+c+"/"+a
 s=window.location.href
 s.toString
-return A.vz(s,"/#/","")+"web-snake/assets/"+a}}
+return A.vz(s,"/#/","")+"/assets/"+a}}
 A.Gz.prototype={
 jg(a){var s,r=this.a
 if(r.ah(0,a)){r=r.h(0,a)
