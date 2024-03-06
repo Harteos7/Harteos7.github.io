@@ -44195,7 +44195,7 @@ if(B.d.dc(a,"/"))a=B.d.zx(a,"/","")
 if(c!=null)a="packages/"+c+"/"+a
 s=window.location.href
 s.toString
-return A.vz(s,"/#/","")+"/assets/"+a}}
+return A.vz(s,"/#/","")+"/web-snake/assets/"+a}}
 A.Gz.prototype={
 jg(a){var s,r=this.a
 if(r.ah(0,a)){r=r.h(0,a)
@@ -83259,7 +83259,7 @@ xA(){var s,r,q=$.arf()
 $.nm=A.b([q.np(10),q.np(20)],t.t)
 for(q=$.bP,s=q.length,r=0;r<q.length;q.length===s||(0,A.H)(q),++r)if(J.cP(q[r])===A.m6($.nm,"[","]"))this.xA()
 B.b.Z($.anc(),new A.ajc(this))},
-aez(){var s,r,q="web-snake/assets/dead.mp3",p="web-snake/assets/dead2.mp3"
+aez(){var s,r,q="dead.mp3",p="dead2.mp3"
 if(!$.vx||J.am(B.b.gF($.bP),1)<0||J.am(B.b.gF($.bP),1)>=20||J.am(B.b.gF($.bP),0)<0||J.am(B.b.gF($.bP),0)>=10){if(!$.hI)A.q9(q,1)
 else{$.qb().cb(0)
 $.hI=!1
@@ -83386,7 +83386,7 @@ s=t.F
 return new A.qi(q,A.wl(A.b([p,B.LW,o],s),B.eK,B.bB,B.dT),A.b([A.B1(B.R3,new A.aje(a),r)],s),r)},
 $S:496}
 A.ajd.prototype={
-$0(){var s="web-snake/assets/test.mp3"
+$0(){var s="test.mp3"
 if(!$.hI)A.q9(s,1)
 else{$.qb().cb(0)
 $.hI=!1
@@ -83436,7 +83436,7 @@ else{$.aqs=!0
 A.k8(A.c6(0,75),new A.aj4(this.a),t.P)}},
 $S:0}
 A.aj4.prototype={
-$0(){var s,r,q,p="web-snake/assets/son.mp3"
+$0(){var s,r,q,p="son.mp3"
 if(!$.hI)A.q9(p,0.75)
 else{$.qb().cb(0)
 $.hI=!1
