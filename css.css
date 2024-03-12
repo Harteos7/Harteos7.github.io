@@ -35,3 +35,11 @@ nav a:hover {
     height: 200px;
     width: auto;
 }
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    color: #2ecc71;
+}
