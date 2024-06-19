@@ -43,3 +43,10 @@ h1 {
 h2 {
     color: #2ecc71;
 }
+
+.img-limit {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
