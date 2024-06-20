@@ -6,21 +6,25 @@
     <title>Ma personne</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script src="js.js"></script>
     <link rel="stylesheet" href="css.css"> 
+    <style>
+        .lang-content { display: none; }
+    </style>
+    <script src="js.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
+    <div class="lang-content fr">
+        <header>
+          <nav>
             <ul>
-            <li><a href="index.html">Accueil</a></li>  
-            <li><a href="moi.html">À propos de moi</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="formation.html">Formation</a></li>
+              <li><a href="index.html">Accueil</a></li>  
+              <li><a href="moi.html">À propos de moi</a></li>
+              <li><a href="projets.html">Projets</a></li>
+              <li><a href="formation.html">Formation</a></li>
             </ul>
-        </nav>
-    </header>
-
+          </nav>
+        </header>
+      
         <div class="row mx-3 my-3 justify-content-center">
             <div class="col-md-9 mb-3 text-center">
             <section>
@@ -58,5 +62,57 @@
             </div>
         </div>
     
+      
+      
+      <div class="lang-content en">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>  
+              <li><a href="moi.html">About Me</a></li>
+              <li><a href="projets.html">Projects</a></li>
+              <li><a href="formation.html">Training</a></li>
+            </ul>
+          </nav>
+        </header>
+      
+        <div class="row mx-3 my-3 justify-content-center">
+            <div class="col-md-9 mb-3 text-center">
+                <section>
+                    <h1>Harmand Yoann</h1>
+                    <h2>Web/Mobile App Developer | Video Games | Hiking</h2>
+                </section>
+        
+                <section>
+                    <h2>About Me</h2>
+                    <p>I am a developer who enjoys creating applications and software. My goal is to create tools that can be used by everyone without difficulty. I am particularly interested in developing science fiction video games, featuring elements such as exotic resources, special construction, exploration, and planning the expansion of our empire, in line with 4X games.</p>
+                </section>
+        
+                <section>
+                    <h2>Main Skills</h2>
+                    <ul>
+                        <li>Web Development: Database management, back-end, and front-end</li>
+                        <li>Mobile Application Development: Cross-platform apps with Flutter and Firebase (NoSQL)</li>
+                        <li>Non-Regression Testing: Robot Framework with various communication methods (MQTT, SSH)</li>
+                    </ul>
+                </section>
+        
+                <section>
+                    <h2>Professional Experience</h2>
+                    <ul>
+                        <li>2 internships before high school graduation: Thales and Sanofi (discovering the work environment)</li>
+                        <li>An internship for a Renault subcontractor: Writing documentation for a tool</li>
+                        <li>Apprenticeship at Thales: Automating non-regression tests with Robot Framework</li>
+                    </ul>
+                </section>
+        
+                <section>
+                    <h2>My Resume</h2>
+                    <embed src="assets/CV Yoann Harmand.pdf" type="application/pdf" width="100%" height="1000px" />
+                </section>
+            </div>
+        </div>
+        
+
 </body>
 </html>
